@@ -1,22 +1,135 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
 }
 
 
-.display-flex{
+.display-flex {
     display: flex;
 }
 
-body{
+body {
     font-family: "Poppins", sans-serif;
+}
+
+.Button-primary {
+    width: 196px;
+    height: 44px;
+    background-color: var(--button-color);
+    border: none;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: azure;
+    border-radius: 41px;
+
+}
+
+:root {
+    --text-title: #3A3A3A;
+    --text-description: #787885;
+    --button-color: #E02C6D;
+
+
 }
 
 
 
+.navbar {
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    /* This is the correct way */
+    margin-top: 50px;
+
+
+}
+
+.nav-links {
+    font-size: 1rem;
+    list-style: none;
+    gap: 25px;
+    text-decoration: none;
+    color: var(--text-description);
+
+}
+
+.nav-brand {
+    font: 1.5rem;
+    font-weight: 700;
+    align-items: center;
+}
+
+
+/* head-text */
+.head-text {
+    max-width: 582px;
+}
+
+.head-title {
+    font-size: 3.25rem;
+}
+
+.head-left-right {
+    justify-content: space-between;
+    margin: 0 160px;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.head-img {
+
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+
+}
+
+.head-title {
+    font-size: 3.25rem;
+    line-height: 120%;
+    margin-bottom: 10px;
+
+
+}
+
+.head-subtitle {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+
+
+/* brand */
+
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 61px;
+    align-items: center;
+
+
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1110px;
+    
+    padding: 25px 50px;
+    margin: 25px auto;
+
+
+}
